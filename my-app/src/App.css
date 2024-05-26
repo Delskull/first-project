@@ -1,6 +1,12 @@
 .header{
     background-color: gray;
 }
+.header-wrapper{
+    display: flex;
+    justify-content: center;
+    max-width: 60%;
+    margin: 0 auto;
+}
 .header-logo img{
     width: 136px;
 }
@@ -21,4 +27,7 @@
     height: 24px;
     border: 1px solid black;
     border-radius: 50%;
+}
+.header-find{
+
 }
